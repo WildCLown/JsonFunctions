@@ -31,8 +31,6 @@ function hasIn(checkObj, boolObj, answer = {}, fatherKey = "root"){
             } else{
                 answer[key] = "Not Obligated";
             }
-            console.log("Answer2 is : in " + `${fatherKey}.${key}`);
-            console.log(answer)
         }
     }
     return answer;
